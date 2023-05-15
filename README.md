@@ -13,8 +13,7 @@ This project provides a two-dimensional positioning system that can be used to m
 
 Here are a couple of screenshots showcasing the user interface and the project in action: 
 
-![Screenshot 1](https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/d1840518-37bf-4216-a80b-9b30d389b892)
-
-![Screenshot 2](https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/6eb968c2-0636-496e-8b9b-55a91c7c0e53)
+<img width="582" alt="image" src="https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/d1840518-37bf-4216-a80b-9b30d389b892">
+<img width="398" alt="image" src="https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/6eb968c2-0636-496e-8b9b-55a91c7c0e53">
 
 Feel free to explore the system and utilize its features for your mapping needs.
