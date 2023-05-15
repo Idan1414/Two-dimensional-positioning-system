@@ -1,0 +1,11 @@
+Ross;278;132
+Monica;357;169
+Joey;424;145
+Phoebe;540;219
+Chandler;44;201
+Rachel;206;233
+ChocolateMilkshake;479;301
+VanillaMilkshake;408;275
+StrawberrySmoothie;349;283
+BananaSmoothie;234;307
+BananaCake;104;316
