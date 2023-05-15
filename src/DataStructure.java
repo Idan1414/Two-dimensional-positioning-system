@@ -13,7 +13,6 @@ public class DataStructure implements DT {
 
 
 
-	//////////////// DON'T DELETE THIS CONSTRUCTOR ////////////////
 	public DataStructure() //O(1)
 	{
 		this.maxX = null;
@@ -23,7 +22,7 @@ public class DataStructure implements DT {
 		this.numOfPlanes = 0 ; 
 	}
 
-	@Override
+	
 	public void addPoint(Point point) {//O(n)
 		//X
 		Container newCon = new Container(point);//O(1)
@@ -89,7 +88,7 @@ public class DataStructure implements DT {
 
 
 
-	@Override
+	
 	public Point[] getPointsInRangeRegAxis(int min, int max, Boolean axis) {
 		// TODO Auto-generated method stub
 		this.updateIndex(); //O(n)
@@ -128,7 +127,7 @@ public class DataStructure implements DT {
 
 
 
-	@Override
+	
 	public Point[] getPointsInRangeOppAxis(int min, int max, Boolean axis) {//O(n)
 		// TODO Auto-generated method stub
 		int lengthOfNewArray = getPointsInRangeRegAxis(min,max,axis).length;//O(n)
@@ -147,7 +146,7 @@ public class DataStructure implements DT {
 
 
 
-	@Override
+	
 	public double getDensity() {//O(1)
 		// TODO Auto-generated method stub
 		if(numOfPlanes == 0)
@@ -155,7 +154,7 @@ public class DataStructure implements DT {
 		return (double)numOfPlanes / ((maxX.getData().getX()-minX.getData().getX())*(maxY.getData().getY()-minY.getData().getY()));
 	}
 
-	@Override
+	
 	public void narrowRange(int min, int max, Boolean axis) { // O(A)
 		// TODO Auto-generated method stub
 		Container currAxis = getMin(axis); //running left to right until min
@@ -209,7 +208,7 @@ public class DataStructure implements DT {
 	}
 
 
-	@Override
+	
 	public Boolean getLargestAxis() {//O(1)
 		// TODO Auto-generated method stub
 		if(numOfPlanes==0)
@@ -219,7 +218,7 @@ public class DataStructure implements DT {
 		return rangeX>rangeY;
 	}
 
-	@Override
+	
 	public Container getMedian(Boolean axis) {//O(n/2)=O(n)
 		// TODO Auto-generated method stub
 		Container result = getMin(axis);
@@ -229,7 +228,7 @@ public class DataStructure implements DT {
 		return result;
 	}
 
-	@Override
+	
 	public Point[] nearestPairInStrip(Container container, double width,Boolean axis) {
 		// TODO Auto-generated method stub
 		if(numOfPlanes==0)
@@ -333,7 +332,7 @@ public class DataStructure implements DT {
 
 
 
-	@Override
+	
 	public Point[] nearestPair() {//O(n/BlogB)
 		// TODO Auto-generated method stub
 		Point[] nearestPairToReturn=new Point[2];

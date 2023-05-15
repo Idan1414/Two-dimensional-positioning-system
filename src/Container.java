@@ -1,5 +1,4 @@
 
-//Don't change the class name
 public class Container{
 	private Point data;//Don't delete or change this field;
 	private Container nextX;
