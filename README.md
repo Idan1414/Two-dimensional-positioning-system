@@ -1,21 +1,15 @@
+# Two-dimensional positioning system
 
-#Two-dimensional positioning system
-This project provides a two-dimensional positioning system that can be used to map airplanes, football players, or any other objects that require spatial mapping. It allows you to perform various operations such as adding points, finding the closest points, and sorting points in X-order or Y-order.
+Can be used to map airplanes/football players/etc...
 
-Activation Steps
-To activate the system, follow these steps:
+In order to Activate the system:
 
-Download the ZIP file of the project.
-Open the project in your preferred IDE (e.g., Eclipse, IntelliJ, etc.).
-Run the GUI (Graphical User Interface) of the project.
-In the GUI, navigate to the "Input Menu" section.
-Load the required TXT file and an image related to the mapping scenario (e.g., Football, Planes, Friends, etc.).
-Once the input is loaded, you can use the available functions according to your needs.
-Screenshots
-Here are a couple of screenshots showcasing the user interface and the project in action:
+1. Download the ZIP.
+2. Open the project in Eclipse/intelliJ/etc...
+3. Run the GUI.
+4. In the GUI, in the "Input Menu" , load the TXT file and the Image (Football,Planes,Friends, etc...)
+5. Use the functions as you wish, you can add point, find the closest points, and get the points in X-order or Y-order as you wish.
 
-Screenshot 1
+![Screenshot 1](https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/d1840518-37bf-4216-a80b-9b30d389b892)
 
-Screenshot 2
-
-Feel free to explore the system and utilize its features for your mapping needs.
+![Screenshot 2](https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/6eb968c2-0636-496e-8b9b-55a91c7c0e53)
