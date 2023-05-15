@@ -11,7 +11,7 @@ This project provides a two-dimensional positioning system that can be used to m
 5. Use the functions as you wish, you can add point, find the closest points, and get the points in X-order or Y-order as you wish.
 
 
-Here are a couple of screenshots showcasing the user interface and the project in action:
+Here are a couple of screenshots showcasing the user interface and the project in action: 
 
 ![Screenshot 1](https://github.com/Idan1414/Two-dimensional-positioning-system/assets/133697418/d1840518-37bf-4216-a80b-9b30d389b892)
 
